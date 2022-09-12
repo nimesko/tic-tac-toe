@@ -1,0 +1,30 @@
+{
+    "compilerOptions": {
+        "target": "ES2022",
+        "module": "ES2022",
+        "jsx": "react",
+        "moduleResolution": "node",
+        "baseUrl": "./src",
+        "sourceMap": true,
+        "outDir": "./dist/",
+        "strict": true,
+        "allowJs": true,
+        "skipLibCheck": true,
+        "esModuleInterop": true,
+        "incremental": true,
+        "resolveJsonModule": true,
+        "experimentalDecorators": true,
+        "paths": {
+            "@models": ["./models/index.ts"],
+            "@components/*": ["./components/*"],
+            "@utils/*": ["./utils/*"],
+            "@reducers/*": ["./reducers/*"],
+            "@services/*": ["./services/*"],
+            "@animations/*": ["./animations/*"],
+            "@theme": ["./theme"]
+        }
+    },
+    "exclude": [
+        "node_modules"
+    ]
+}
