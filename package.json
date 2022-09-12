@@ -55,7 +55,7 @@
     "jest-environment-jsdom": "^28.1.1",
     "lint-staged": "^13.0.0",
     "prettier": "^2.6.2",
-    "sharp": "^0.30.7",
+    "sharp": "^0.31.0",
     "terser-webpack-plugin": "^5.3.3",
     "ts-jest": "^28.0.4",
     "ts-loader": "^9.3.0",
