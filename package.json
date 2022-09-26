@@ -43,7 +43,7 @@
     "copy-webpack-plugin": "^11.0.0",
     "duplicate-package-checker-webpack-plugin": "^3.0.0",
     "eslint": "^8.23.1",
-    "eslint-config-standard-with-typescript": "^22.0.0",
+    "eslint-config-standard-with-typescript": "^23.0.0",
     "eslint-plugin-import": "^2.26.0",
     "eslint-plugin-n": "^15.2.5",
     "eslint-plugin-promise": "^6.0.1",
