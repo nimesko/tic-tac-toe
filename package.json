@@ -52,7 +52,7 @@
     "husky": "^8.0.1",
     "image-minimizer-webpack-plugin": "^3.6.1",
     "jest": "^28.1.1",
-    "jest-environment-jsdom": "^29.0.3",
+    "jest-environment-jsdom": "^29.1.2",
     "lint-staged": "^13.0.0",
     "prettier": "^2.6.2",
     "sharp": "^0.31.0",
