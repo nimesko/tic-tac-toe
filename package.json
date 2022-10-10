@@ -28,7 +28,7 @@
     "react-hook-form": "^7.35.0",
     "react-router-dom": "^6.4.1",
     "styled-components": "^5.3.5",
-    "web-vitals": "^3.0.2"
+    "web-vitals": "^3.0.3"
   },
   "devDependencies": {
     "@faker-js/faker": "^7.3.0",
