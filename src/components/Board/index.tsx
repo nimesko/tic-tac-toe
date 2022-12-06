@@ -74,12 +74,14 @@ const Board = ({ disableKeyboard, grid, players, onGameUpdate, onGameFinished, o
 		}
 		document.addEventListener('keypress', onKeyPress)
 
+		return () => document.removeEventListener('keypress', onKeyPress)
+	}, [disableKeyboard, isGameFinished])
+
+	useEffect(() => {
 		if (isGameFinished) {
 			onGameFinished({ grid, winner: players[winner] })
 		}
-
-		return () => document.removeEventListener('keypress', onKeyPress)
-	}, [disableKeyboard, isGameFinished])
+	}, [isGameFinished])
 
 	return (
 		<Wrapper>
